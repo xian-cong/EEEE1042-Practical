@@ -1,10 +1,11 @@
 #include <stdio.h>
-#define N 100
+#include <time.h>
+#define N 500000
 
 int main() {
 
-  int prime[N];
-  
+  clock_t startTime = clock();
+
   for (int testNum = 2; testNum<N; testNum++) //initialize first prime is 2
     {
       int isPrime = 1;
@@ -25,5 +26,6 @@ int main() {
 
     }
 
+  printf("Time to calculate %d primes: %f s\n", N, (float)(clock()-startTime)/CLOCKS_PER_SEC);
   return 0;
 }
