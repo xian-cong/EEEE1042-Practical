@@ -1,9 +1,6 @@
-# practical4_EEEE1042
-Pascal Triangle &amp; Prime Numbers in C 
+# EEEE1042 Practical
 
-
-To run file with math.h library use:
+To run:
 ```
-gcc KoayXianCong_practical4_EEEE1042_2_1.c -lm && ./a.out
+gcc KoayXianCong_practical4_EEEE1042_2_1.c && ./a.out
 ```
-![alt text](https://github.com/xian-cong/practical4_EEEE1042/blob/main/SmartSelect_20211107-223505_Samsung%20Notes.jpg)
