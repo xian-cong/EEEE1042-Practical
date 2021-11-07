@@ -1,0 +1,3 @@
+(null)
+SHELL=/bin/bash
+SESSION_MANAGER=local/xc-linux:@/tmp/.ICE-unix/3025,unix/xc-linux:/tmp/.ICE-unix/3025
