@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 20
+#define N 1000
 
 
 int main () {
 
   FILE *f;
-  char M[]="MSB.txt";
-  char L[]="LSB.txt";
+  char M[]="MSB";
+  char L[]="LSB";
   int i,j;
   int MSB, LSB;
 
