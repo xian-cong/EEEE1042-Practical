@@ -1,5 +1,7 @@
 /*
 * Code to generate random number using MSB formula.
+* Run command: gcc RandomNumGen.c && ./a.out
+* Output: 10
 */
 
 #include <stdio.h>

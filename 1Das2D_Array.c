@@ -1,5 +1,16 @@
 /*
 * Code to generate 1D Array as 2D
+* Run command: gcc 1Das2D_Array.c && ./a.out
+* Output: 1
+*         2
+*         3
+*         4
+*         5
+*         6
+*         7
+*         8
+*         9
+*         10
 */
 
 #include <stdio.h>

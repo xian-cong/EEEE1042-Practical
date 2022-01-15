@@ -1,5 +1,18 @@
 /*
 * Code to find maximum value in an array
+* Run command: gcc MaxFind.c && ./a.out
+* Output: 13
+*         4
+*         4
+*         12
+*         5
+*         7
+*         15
+*         13
+*         7
+*         10
+*
+*         Max: 15
 */
 
 #include <stdio.h>
@@ -22,7 +35,7 @@ void printMax(int *arr) {
             max = arr[i];
         }
     }
-    printf("\nMax: %d", max);
+    printf("\nMax: %d\n", max);
 }
 
 int main() {
